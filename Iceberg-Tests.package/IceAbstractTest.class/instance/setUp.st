@@ -2,7 +2,7 @@ running
 setUp
 	super setUp.
 	
-	projectName := 'pharo-git-test'.
+	projectName := self class projectNameForTest.
 	packageName :=  'Pharo-Git-Test'.
 	otherPackageName :=  'IcebergTestPackage2'.
 

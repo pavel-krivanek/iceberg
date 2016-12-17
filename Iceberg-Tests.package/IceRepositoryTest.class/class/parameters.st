@@ -1,3 +1,3 @@
 configurations
 parameters
-	^ { self repositoryBackendConfiguration }
+	^ { self repositoryBackendConfiguration. self projectNameForTestConfiguration }
