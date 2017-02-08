@@ -1,4 +1,3 @@
 actions
 fetchFrom: aRemote
-	self withRepoDo: [ :repo | 
-		(LGitRemote of: repo named: aRemote remoteName) lookup; fetch ]
+	self withRepoDo: [ :repo | repo fetchFrom: aRemote remoteName ]

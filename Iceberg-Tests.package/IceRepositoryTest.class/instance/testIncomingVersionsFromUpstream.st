@@ -2,9 +2,7 @@ tests - versions
 testIncomingVersionsFromUpstream
 	| package | 
 	"1. - Preparation: checkout the all-but-last version"
-	self gitCommand: 'reset --hard master^'.
-	repository loadPackage: packageName.
-	repository fetch.
+	self scenarioIncomingCommit.
 
 	"2. - Exercise"
 	package := repository packageNamed: packageName.

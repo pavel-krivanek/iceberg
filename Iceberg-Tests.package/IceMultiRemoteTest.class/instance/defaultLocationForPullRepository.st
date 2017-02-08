@@ -1,0 +1,3 @@
+auxiliar
+defaultLocationForPullRepository
+	^ self defaultLocationforTempRepository: self pushRepositoryDirectoryName.

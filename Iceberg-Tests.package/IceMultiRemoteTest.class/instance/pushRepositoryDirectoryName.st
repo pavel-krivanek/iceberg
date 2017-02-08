@@ -1,0 +1,3 @@
+auxiliar
+pushRepositoryDirectoryName
+	^ projectName, '-push'
