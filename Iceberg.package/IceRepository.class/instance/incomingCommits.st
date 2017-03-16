@@ -1,3 +1,3 @@
 querying
 incomingCommits
-	^ self incomingCommitsFrom: self pullRemote
+	^ self incomingCommitsFrom: self origin

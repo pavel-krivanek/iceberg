@@ -1,3 +1,3 @@
 accessing remotes
 pushRemote: aRemote
-	pushRemote := aRemote
+	self backend pushRemote: aRemote

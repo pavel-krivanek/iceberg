@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"pullRemote" ],
+		"pushRemote" ],
 	"name" : "IceMultiRemoteTest",
 	"pools" : [
 		 ],

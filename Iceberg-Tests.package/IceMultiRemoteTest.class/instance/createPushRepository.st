@@ -1,5 +1,5 @@
 auxiliar
 createPushRepository
 	^ self
-		ensureRepositoryAt: (projectName, '-push')
+		ensureRepositoryAt: self pushRepositoryDirectoryName 
 		clonedFrom: origin

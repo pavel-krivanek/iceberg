@@ -1,3 +1,3 @@
 auxiliar
 tempDirectories
-	^ super tempDirectories copyWith: self defaultLocationForPullRepository
+	^ super tempDirectories copyWith: self defaultLocationForPushRepository

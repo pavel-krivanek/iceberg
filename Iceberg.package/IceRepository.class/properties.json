@@ -12,8 +12,6 @@
 		"name",
 		"announcer",
 		"backend",
-		"pullRemote",
-		"pushRemote",
 		"savedPackages",
 		"upstream",
 		"commitDictionary",

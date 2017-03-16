@@ -1,3 +1,3 @@
 actions
 pull
-	self pullFrom: self pullRemote
+	self pullFrom: self origin

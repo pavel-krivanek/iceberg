@@ -1,9 +1,8 @@
 auxiliar
 createTestRepository: aRemoteRepository
-	pullRemote := IceRemote name: 'pullRemote' url: origin.
-	origin := self createPushRepository.	
+	pushRemote := IceRemote name: 'push' url: self createPushRepository.
 
 	^ (super createTestRepository: origin)
-		addRemote: pullRemote;
-		pullRemote: pullRemote;
+		addRemote: pushRemote;
+		pushRemote: pushRemote;
 		yourself
