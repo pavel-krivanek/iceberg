@@ -1,8 +1,8 @@
-menu actions - branches
+menu actions - subdirectories
 subdirectoryCreateNewAction
 	^ GLMGenericAction new
 		action: [ :presentation :model | 
-			model createNewBranchThen: [ presentation pane browser update ] ];
+			model createNewSubdirectoryThen: [ presentation pane browser update ] ];
 		icon: #add asIcon;
-		showTitle: 'Create branch'; 
+		showTitle: 'Create subdirectory'; 
 		yourself

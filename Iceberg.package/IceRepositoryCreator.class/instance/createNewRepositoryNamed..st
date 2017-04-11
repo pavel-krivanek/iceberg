@@ -14,7 +14,7 @@ createNewRepositoryNamed: aString
 		ifNotEmpty: [ (locationToUse / self subdirectory) ensureCreateDirectory ].
 	backend := self storageClass 
 		newRepositoryAt: locationToUse
-		subdirectory: self subdirectory.
+		subdirectories: self subdirectory.
 	backend init.
 
 	^ (IceRepository backend: backend)

@@ -10,6 +10,6 @@ addRepositorySubdirectoriesTo: composite
 	"actions"
 	subdirectories addAction: self subdirectoryCreateNewAction.
 	"selection actions"
-	"subdirectories 
-		addSelectionAction: self branchSwitchAction;
-		addSelectionAction: self branchCompareWithCurrentAction	"
+	subdirectories 
+		addSelectionAction: self subdirectoryEditAction;
+		addSelectionAction: self subdirectoryRemoveAction.	

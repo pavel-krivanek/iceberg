@@ -14,5 +14,5 @@ createNewSubdirectoryThen: aBlock
 					title: 'Create new subdirectory'. ]
 			ifNotEmpty: [ 
 				| result |
-				result := self repository addSubdirectory: selection.
+				result := self repository backend addSubdirectory: selection.
 				aBlock cull: result ] ]
