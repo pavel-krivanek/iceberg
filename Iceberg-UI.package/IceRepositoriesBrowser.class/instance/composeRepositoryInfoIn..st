@@ -4,4 +4,5 @@ composeRepositoryInfoIn: composite
 	self composePackagesListIn: composite.
 	self addRepositoryRemotesTo: composite.
 	self addRepositoryBranchesTo: composite.
+	self addRepositorySubdirectoriesTo: composite.
 	
